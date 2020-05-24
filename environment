@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+export CONTECO_LABEL="schema_registry.tocloud - ContEco"
+export CONTECO_DESCRIPTION="Confluent Schema Registry to cloud image, with configuration changes."
+
+export CONTECO_TYPE="schema_registry"
+export CONTECO_NAME="tocloud"
+export CONTECO_TAG="5.4.0"
+
+export CONTECO_BASE="external.schema_registry:5.4.0"
+export CONTECO_BUILD="image-base"

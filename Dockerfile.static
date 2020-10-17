@@ -1,6 +1,6 @@
 ##### BEGIN image.base/Dockerfile/image-header #####
 FROM vcwebio/conteco.image.wrapper AS wrapper
-FROM vcwebio/conteco.external.schema_registry:5.4.0 AS base
+FROM vcwebio/conteco.external.schema_registry:6.0.0 AS base
 ##### END image.base/Dockerfile/image-header #####
 
 ##### BEGIN image.base/Dockerfile/conteco #####
@@ -23,16 +23,16 @@ ENV CONTECO_REALM="vcwebio" \
     CONTECO_ECOSYSTEM="conteco" \
     CONTECO_TYPE="schema_registry" \
     CONTECO_NAME="sasl" \
-    CONTECO_TAG="5.4.0" \
-    CONTECO_BASE="external.schema_registry:5.4.0" \
+    CONTECO_TAG="6.0.0" \
+    CONTECO_BASE="external.schema_registry:6.0.0" \
     CONTECO_BUILD="image-base"
 LABEL io.vcweb.schema-version="1.0" \
       io.vcweb.realm="vcwebio" \
       io.vcweb.ecosystem="conteco" \
       io.vcweb.type="schema_registry" \
       io.vcweb.name="sasl" \
-      io.vcweb.tag="5.4.0" \
-      io.vcweb.base="external.schema_registry:5.4.0" \
+      io.vcweb.tag="6.0.0" \
+      io.vcweb.base="external.schema_registry:6.0.0" \
       io.vcweb.build="image-base" \
       io.vcweb.label="schema_registry.sasl - ContEco" \
       io.vcweb.description="Confluent Schema Registry image, with SASL authentication." \

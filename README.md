@@ -10,5 +10,5 @@ See `conteco.docs.overview` for more information on the ContEco ecosystem.
 
 ## Tags
 
-* 5.4.0  
+* 6.0.0  
 * 5.3.1  

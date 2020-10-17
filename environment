@@ -5,7 +5,7 @@ export CONTECO_DESCRIPTION="Confluent Schema Registry image, with SASL authentic
 
 export CONTECO_TYPE="schema_registry"
 export CONTECO_NAME="sasl"
-export CONTECO_TAG="5.4.0"
+export CONTECO_TAG="6.0.0"
 
-export CONTECO_BASE="external.schema_registry:5.4.0"
+export CONTECO_BASE="external.schema_registry:6.0.0"
 export CONTECO_BUILD="image-base"
